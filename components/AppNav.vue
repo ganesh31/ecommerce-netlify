@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>Skyline Ivy</h1>
+    <h1>Mercado</h1>
     <nav>
       <ul>
         <li>
@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex';
 
 export default {
   computed: {
-    ...mapGetters(["cartCount"])
+    ...mapGetters(['cartCount'])
   }
 };
 </script>
